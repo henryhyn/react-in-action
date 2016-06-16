@@ -16,7 +16,7 @@ ReactDOM.render(
 );
 ```
 
-![](demo02.png)
+![](images/demo02.png)
 
 ## 组件
 
@@ -138,7 +138,7 @@ ReactDOM.render(
 
 上面代码的 `NoteList` 组件有两个 `span` 子节点, 它们都可以通过 `this.props.children` 读取, 运行结果如下.
 
-![](demo03.png)
+![](images/demo03.png)
 
 这里需要注意,  `this.props.children` 的值有三种可能:
 如果当前组件没有子节点, 它就是 `undefined`;
@@ -181,7 +181,7 @@ ReactDOM.render(
 );
 ```
 
-![](demo04.png)
+![](images/demo04.png)
 
 上面代码中, 组件 `MyComponent` 的子节点有一个文本输入框, 用于获取用户的输入.
 这时就必须获取真实的 DOM 节点, 虚拟 DOM 是拿不到用户输入的.

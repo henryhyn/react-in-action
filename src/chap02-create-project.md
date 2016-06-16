@@ -70,7 +70,7 @@ document.write('<h1>Hello, world!</h1>');
 官网对 webpack 的定义是 MODULE BUNDLER, 他的目的就是把有依赖关系的各种文件打包成一系列的静态资源.
 请看下图
 
-![](55fb7d622403852ff7533c6da5c620cd_r.png)
+![](images/55fb7d622403852ff7533c6da5c620cd_r.png)
 
 webpack 简单点来说就就是一个配置文件, 所有的魔力都是在这一个文件中发生的.
 这个配置文件主要分为三大块

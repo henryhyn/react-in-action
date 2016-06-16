@@ -1,3 +1,3 @@
 # 志同道合
 
-![](qr.jpg)
+![](images/qr.jpg)
